@@ -1,0 +1,2339 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.2]",
+  "header": {
+    "languages": [
+      "en",
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://146.48.93.235:3030/rabbiOntology"
+    ],
+    "title": {
+      "en": "The Talmudic Rabbis Ontology - RDF Version"
+    },
+    "iri": "http://146.48.93.235:3030/rabbiOntology",
+    "description": {
+      "undefined": "The ontology of the Rabbis of the Babylonian Talmud, being developed within the context of the Progetto Traduzione Talmud Babilonese"
+    },
+    "other": {
+      "contributor": [
+        {
+          "identifier": "contributor",
+          "language": "undefined",
+          "value": "http://www.ilc.cnr.it/en/content/andrea-bellandi",
+          "type": "iri"
+        },
+        {
+          "identifier": "contributor",
+          "language": "undefined",
+          "value": "http://www.ilc.cnr.it/en/content/emiliano-giovannetti",
+          "type": "iri"
+        },
+        {
+          "identifier": "contributor",
+          "language": "undefined",
+          "value": "http://www.ilc.cnr.it/en/content/simone-marchi",
+          "type": "iri"
+        }
+      ],
+      "rights": [
+        {
+          "identifier": "rights",
+          "language": "undefined",
+          "value": "CC-BY",
+          "type": "label"
+        }
+      ],
+      "language": [
+        {
+          "identifier": "language",
+          "language": "undefined",
+          "value": "http://lexvo.org/id/iso639-3/eng",
+          "type": "iri"
+        }
+      ],
+      "issued": [
+        {
+          "identifier": "issued",
+          "language": "undefined",
+          "value": "2018-08-09",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "en",
+          "value": "The Talmudic Rabbis Ontology - RDF Version",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": 0.5143637642954452,
+      "translation": [
+        372.5669550048242,
+        205.02740083018818
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "8",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "12",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "13",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "19",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "6",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "28",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "30",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "36",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "45",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "52",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "53",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "54",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "55",
+      "type": "owl:intersectionOf"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#Title",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Title"
+      },
+      "individuals": [
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#rabbi",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "rabbi"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#rav",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "rav"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#rabban",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "rabban"
+          }
+        }
+      ],
+      "id": "0",
+      "pos": [
+        665.5603249216068,
+        1076.1500952210656
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#ThirdGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ThirdGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "3",
+      "pos": [
+        -205.27799459818715,
+        303.5801747051288
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#SecondGenerationTanna",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SecondGenerationTanna"
+      },
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "8",
+      "pos": [
+        1324.0515958647472,
+        -297.16349779228443
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#Amora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Amora"
+      },
+      "individuals": [
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Hunà_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Hunà_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Mar_Uqvà_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Mar_Uqvà_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Achà_bar_Awirà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Achà_bar_Awirà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shemuèl_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shemuèl_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Hunà_figlio_di_rav_Idì_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Hunà_figlio_di_rav_Idì_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chiyà_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chiyà_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chananèl_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chananèl_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ravinà_Amora_6",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ravinà_Amora_6"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Tovì_bar_Mattanà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Tovì_bar_Mattanà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yitzchàq_bar_Avìn_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yitzchàq_bar_Avìn_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shemuèl_bar_Amì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shemuèl_bar_Amì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chananyà_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chananyà_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbàhu_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbàhu_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosèf_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosèf_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yirmeyà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yirmeyà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ahavà_figlio_di_rabbì_Zerà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ahavà_figlio_di_rabbì_Zerà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Hunà_figlio_di_rav_Yehoshùa_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Hunà_figlio_di_rav_Yehoshùa_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yitzchàq_bar_Nachmàni_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yitzchàq_bar_Nachmàni_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Enà_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Enà_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Achà_bar_Yaaqòv_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Achà_bar_Yaaqòv_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Achà_bar_Chaninà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Achà_bar_Chaninà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yaaqòv_bar_Idì_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yaaqòv_bar_Idì_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chiyà_bar_Abbà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chiyà_bar_Abbà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Dimì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Dimì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Amemàr_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Amemàr_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Avìn_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Avìn_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Zerà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Zerà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbayè_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbayè_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Sheshà_figlio_di_rav_Idì_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Sheshà_figlio_di_rav_Idì_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chanà_di_Tzipporì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chanà_di_Tzipporì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbà_bar_Limà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbà_bar_Limà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ravà_di_Barnìsh_Amora_6",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ravà_di_Barnìsh_Amora_6"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chaninà_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chaninà_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Nachmàn_bar_Chisdà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Nachmàn_bar_Chisdà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chaninà_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chaninà_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Oshaayà_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Oshaayà_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chanàn_bar_Ravà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chanàn_bar_Ravà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Hunà_bar_Avìn_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Hunà_bar_Avìn_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehudà_Nesià_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehudà_Nesià_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shemuèl_bar_Inyà_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shemuèl_bar_Inyà_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shimòn_il_Pio_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shimòn_il_Pio_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chamà_bar_Chaninà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chamà_bar_Chaninà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbà_bar_Avùh_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbà_bar_Avùh_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Mar_Zutrà_Amora_6",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Mar_Zutrà_Amora_6"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Pappà_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Pappà_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chaninà_bar_Kahanà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chaninà_bar_Kahanà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chiyà_bar_Rav_di_Difti_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chiyà_bar_Rav_di_Difti_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rav_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rav_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yoshiyà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yoshiyà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosè_bar_Chaninà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosè_bar_Chaninà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Pappì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Pappì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Amì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Amì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yitzchàq_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yitzchàq_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Asì_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Asì_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Asì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Asì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chiyà_figlio_di_Rabbà_bar_Nachmàni_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chiyà_figlio_di_Rabbà_bar_Nachmàni_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elazàr_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elazàr_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Zevìd_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Zevìd_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shelà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shelà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shèshet_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shèshet_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbà_bar_Ullà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbà_bar_Ullà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbà_haKohèn_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbà_haKohèn_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Levì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Levì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ullà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ullà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Achà_bar_Hunà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Achà_bar_Hunà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Kruspedài_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Kruspedài_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yonà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yonà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbà_figlio_di_Binyamìn_bar_Chiyà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbà_figlio_di_Binyamìn_bar_Chiyà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shemuèl_bar_Yitzchàq_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shemuèl_bar_Yitzchàq_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chanà_bar_Biznà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chanà_bar_Biznà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Dimì_di_Nehardèa_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Dimì_di_Nehardèa_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Aivù_bar_Naggaré_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Aivù_bar_Naggaré_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbà_bar_Bar_Chanà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbà_bar_Bar_Chanà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ilfà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ilfà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yochanàn_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yochanàn_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Nachmàn_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Nachmàn_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Nachmàn_bar_Yitzchàq_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Nachmàn_bar_Yitzchàq_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ravà_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ravà_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Levì_bar_Lachmà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Levì_bar_Lachmà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shemuèl_bar_Nachmàni_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shemuèl_bar_Nachmàni_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehudà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehudà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yitzchàq_bar_Yosèf_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yitzchàq_bar_Yosèf_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shèmen_bar_Abbà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shèmen_bar_Abbà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Awirà_Amora_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Awirà_Amora_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Qetinà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Qetinà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Dimì_bar_Chinnanà_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Dimì_bar_Chinnanà_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Anàn_bar_Ravà_Amora_na",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Anàn_bar_Ravà_Amora_na"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chiyà_bar_Gamdà_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chiyà_bar_Gamdà_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Resh_Laqìsh_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Resh_Laqìsh_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ashì_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ashì_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Tavì_figlio_di_Marì_Tavì_Amora_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Tavì_figlio_di_Marì_Tavì_Amora_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbà_bar_Shemuèl_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbà_bar_Shemuèl_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ilfài_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ilfài_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yannài_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yannài_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Pappà_bar_Shemuèl_Amora_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Pappà_bar_Shemuèl_Amora_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehoshùa_ben_Levì_Amora_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehoshùa_ben_Levì_Amora_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chisdà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chisdà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbà_bar_rav_Hunà_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbà_bar_rav_Hunà_Amora_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehudà_bar_Idì_Amora_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehudà_bar_Idì_Amora_2"
+          }
+        }
+      ],
+      "id": "4",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        228.2641864632724,
+        389.7065496818231
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#BabylonianAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "BabylonianAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "11",
+      "pos": [
+        -202.5412342730261,
+        487.6030147988382
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#FirstGenerationTanna",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FirstGenerationTanna"
+      },
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "12",
+      "pos": [
+        1122.8281327779628,
+        -334.2342305093068
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#EretzIsraelAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "EretzIsraelAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "13",
+      "pos": [
+        413.9974409981659,
+        -4.73299051259704
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "15",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        1192.8528486730443,
+        778.5301665589727
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "18",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        847.4348076687033,
+        1005.6071705161544
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "19",
+      "label": {
+        "IRI-based": "int"
+      },
+      "pos": [
+        1052.9071190380525,
+        964.4406449846103
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "22",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        1095.265573524622,
+        454.11521840118223
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "6",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        661.7678003503186,
+        903.4354145071532
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "24",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        606.361302611318,
+        743.5025347685848
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#EightGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "EightGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "28",
+      "pos": [
+        267.68461760359065,
+        -56.425344447643354
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#Tanna",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Tanna"
+      },
+      "individuals": [
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elièzer_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elièzer_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shimòn_ben_Yehudà_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shimòn_ben_Yehudà_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yonatàn_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yonatàn_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Avtolemos_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Avtolemos_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosè_bar_Yehudà_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosè_bar_Yehudà_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Meìr_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Meìr_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Palaimo_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Palaimo_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yishmaèl_figlio_di_Yochanàn_ben_Beroqà_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yishmaèl_figlio_di_Yochanàn_ben_Beroqà_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elazàr_figlio_di_rabbì_Yosè_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elazàr_figlio_di_rabbì_Yosè_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elazàr_figlio_di_rabbì_Shimòn_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elazàr_figlio_di_rabbì_Shimòn_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Nechemyà_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Nechemyà_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbà_padre_di_rabbì_Simlài_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbà_padre_di_rabbì_Simlài_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Dosà_ben_Horkinàs_Tanna_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Dosà_ben_Horkinàs_Tanna_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosè_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosè_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Pappyàs_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Pappyàs_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Gamlièl_II_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Gamlièl_II_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehoshùa_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehoshùa_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yochanàn_ben_Zakkài_Tanna_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yochanàn_ben_Zakkài_Tanna_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Gamlièl_Tanna_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Gamlièl_Tanna_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehudà_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehudà_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Rabbì_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Rabbì_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosè_haKohèn_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosè_haKohèn_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehoshùa_ben_Qorchà_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehoshùa_ben_Qorchà_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chaninà_ben_Yosè_il_Galileo_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chaninà_ben_Yosè_il_Galileo_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shimòn_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shimòn_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Tarfòn_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Tarfòn_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shimòn_Shezurì_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shimòn_Shezurì_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yehudà_ben_Shammùa_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yehudà_ben_Shammùa_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yonatàn_ben_Yosèf_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yonatàn_ben_Yosèf_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elazàr_figlio_di_rabbì_Tzadòq_Tanna_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elazàr_figlio_di_rabbì_Tzadòq_Tanna_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Natàn_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Natàn_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chalaftà_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chalaftà_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosè_il_Galileo_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosè_il_Galileo_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Aqivà_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Aqivà_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elazàr_figlio_di_rabbì_Tzadòq_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elazàr_figlio_di_rabbì_Tzadòq_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Ben_Azài_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Ben_Azài_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Abbà_Shaùl_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Abbà_Shaùl_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Tobia_il_Medico_Tanna_1",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Tobia_il_Medico_Tanna_1"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yosè_ben_Kefàr_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yosè_ben_Kefàr_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shimòn_ben_Elazàr_Tanna_5",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shimòn_ben_Elazàr_Tanna_5"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Nehorài_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Nehorài_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yishmaèl_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yishmaèl_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elazàr_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elazàr_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elièzer_ben_Yaaqòv_Tanna_4",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elièzer_ben_Yaaqòv_Tanna_4"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Chananyà_ben_Teradyòn_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Chananyà_ben_Teradyòn_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Elièzer_ben_Yaaqòv_Tanna_2",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Elièzer_ben_Yaaqòv_Tanna_2"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yochanàn_ben_Nurì_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yochanàn_ben_Nurì_Tanna_3"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Yochanàn_ben_Beroqà_Tanna_3",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Yochanàn_ben_Beroqà_Tanna_3"
+          }
+        }
+      ],
+      "id": "9",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        1159.3894317949325,
+        92.19527691595111
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#FifthGenerationTanna",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FifthGenerationTanna"
+      },
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "29",
+      "pos": [
+        1504.7087273433115,
+        -138.5026395784029
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#SecondGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SecondGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "30",
+      "pos": [
+        -134.57699216924408,
+        132.10764019556112
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "33",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        1169.8067592110333,
+        553.8778154448834
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "35",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        1207.0989576736008,
+        663.2988112644949
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#FirstGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FirstGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "36",
+      "pos": [
+        -135.52779614492923,
+        641.4829259397186
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "38",
+      "label": {
+        "IRI-based": "string"
+      },
+      "pos": [
+        1148.1491721633595,
+        883.484714418064
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#SeventhGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SeventhGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "45",
+      "pos": [
+        -19.52278278136272,
+        16.251256163941864
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#MemberOfZug",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "MemberOfZug"
+      },
+      "individuals": [
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Hillèl_MemberOfZug_na",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Hillèl_MemberOfZug_na"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shemayà_MemberOfZug_na",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shemayà_MemberOfZug_na"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#Shammài_MemberOfZug_na",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "Shammài_MemberOfZug_na"
+          }
+        }
+      ],
+      "id": "17",
+      "superClasses": [
+        "2"
+      ],
+      "pos": [
+        1006.8743527763761,
+        1119.6572747852156
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#Place",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Place"
+      },
+      "individuals": [
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#eretzIsrael",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "eretzIsrael"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#yavnè",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "yavnè"
+          }
+        },
+        {
+          "iri": "http://146.48.93.235:3030/rabbiOntology#babylon",
+          "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+          "labels": {
+            "IRI-based": "babylon"
+          }
+        }
+      ],
+      "id": "27",
+      "pos": [
+        807.7583477855079,
+        267.33186721579847
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#FourthGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FourthGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "50",
+      "pos": [
+        126.54746887857115,
+        818.8141392344245
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#FourthGenerationTanna",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FourthGenerationTanna"
+      },
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "52",
+      "pos": [
+        940.7966857501624,
+        -272.5224149723272
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#SixthGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SixthGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "53",
+      "pos": [
+        120.06355122099794,
+        -47.35873565351795
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#FifthGenerationAmora",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "FifthGenerationAmora"
+      },
+      "intersection": [
+        "4"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "54",
+      "pos": [
+        -23.497281564351294,
+        758.6057270445972
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#ThirdGenerationTanna",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ThirdGenerationTanna"
+      },
+      "intersection": [
+        "9"
+      ],
+      "attributes": [
+        "intersection"
+      ],
+      "id": "55",
+      "pos": [
+        1576.33707987213,
+        93.51713426652854
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#Master",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Master"
+      },
+      "subClasses": [
+        "9",
+        "17",
+        "4"
+      ],
+      "id": "2",
+      "pos": [
+        885.0098268261413,
+        678.4395672972173
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "1",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "5",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "10",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "14",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "16",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "20",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "23",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "25",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "26",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "31",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "32",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "34",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "37",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "39",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "40",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "41",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "42",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "44",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "46",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "47",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "48",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "49",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "21",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "51",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "43",
+      "type": "owl:objectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#isGrandsonOf",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "2",
+      "label": {
+        "IRI-based": "isGrandsonOf"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "1",
+      "pos": [
+        776.6145628874365,
+        649.7925684722381
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasItalianAlternativeName",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "6",
+      "label": {
+        "IRI-based": "hasItalianAlternativeName"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "5",
+      "pos": [
+        760.741471763441,
+        803.6841920217892
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#isGrandpaOf",
+      "inverse": "1",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "2",
+      "label": {
+        "IRI-based": "isGrandpaOf"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "7"
+    },
+    {
+      "range": "2",
+      "domain": "4",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "10",
+      "pos": [
+        575.8249818047611,
+        542.5088997489013
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "14",
+      "pos": [
+        1014.5409309960612,
+        401.68113164368594
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "17",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "16",
+      "pos": [
+        943.8002054720896,
+        891.29360243382
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#isNephewOf",
+      "inverse": "21",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "2",
+      "label": {
+        "IRI-based": "isNephewOf"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "20",
+      "pos": [
+        883.7670205639804,
+        567.4714463735459
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "23"
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#belongsToGeneration",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "19",
+      "label": {
+        "IRI-based": "belongsToGeneration"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "25",
+      "pos": [
+        978.6797499278051,
+        837.999609040824
+      ]
+    },
+    {
+      "range": "27",
+      "domain": "0",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "26"
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasTaughtInPlace",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "27",
+      "label": {
+        "IRI-based": "hasTaughtInPlace"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "31",
+      "pos": [
+        847.869857135382,
+        480.79250978741067
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasHebrewName",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "33",
+      "label": {
+        "IRI-based": "hasHebrewName"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "id": "32",
+      "pos": [
+        1038.8813586484437,
+        611.1407119216076
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasItalianAlternativeName",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "35",
+      "label": {
+        "IRI-based": "hasItalianAlternativeName"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "id": "34",
+      "pos": [
+        1058.5268160788478,
+        670.2828859621618
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasItalianName",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "38",
+      "label": {
+        "IRI-based": "hasItalianName"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "id": "37",
+      "pos": [
+        1029.8828325150396,
+        791.328450285245
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasTitle",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "0",
+      "label": {
+        "IRI-based": "hasTitle"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "39",
+      "pos": [
+        779.171831162392,
+        870.2508257622426
+      ]
+    },
+    {
+      "range": "2",
+      "domain": "27",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "40"
+    },
+    {
+      "range": "2",
+      "domain": "0",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "41"
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#isFatherOf",
+      "inverse": "43",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "2",
+      "label": {
+        "IRI-based": "isFatherOf"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "42",
+      "pos": [
+        809.8790356672595,
+        591.7957390843949
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasItalianName",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "22",
+      "label": {
+        "IRI-based": "hasItalianName"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "44",
+      "pos": [
+        1002.547713956014,
+        553.0370020163946
+      ]
+    },
+    {
+      "range": "4",
+      "domain": "17",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "46"
+    },
+    {
+      "range": "4",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "47"
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasShortBio",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "15",
+      "label": {
+        "IRI-based": "hasShortBio"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "48",
+      "pos": [
+        1050.2062444953854,
+        732.1507358701172
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#hasHebrewName",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "18",
+      "label": {
+        "IRI-based": "hasHebrewName"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "49",
+      "pos": [
+        863.9440793289906,
+        861.8601023548513
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#isUncleOf",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "2",
+      "label": {
+        "IRI-based": "isUncleOf"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "21"
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#appearsInPageRH",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "24",
+      "label": {
+        "IRI-based": "appearsInPageRH"
+      },
+      "domain": "2",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "51",
+      "pos": [
+        733.840404349005,
+        713.7368337909479
+      ]
+    },
+    {
+      "iri": "http://146.48.93.235:3030/rabbiOntology#isSonOf",
+      "baseIri": "http://146.48.93.235:3030/rabbiOntology",
+      "range": "2",
+      "label": {
+        "IRI-based": "isSonOf"
+      },
+      "domain": "2",
+      "attributes": [
+        "object"
+      ],
+      "id": "43"
+    }
+  ]
+}

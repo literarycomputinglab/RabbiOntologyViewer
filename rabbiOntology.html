@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ontology of rabbis endpoint</title>
+  <!--link href='http://cdn.jsdelivr.net/g/yasqe@2.2(yasqe.min.css),yasr@2.4(yasr.min.css)' rel='stylesheet' type='text/css'/-->
+  <link rel="stylesheet" type="text/css" href="yasqe/yasqe.min.css"/>
+  <link rel="stylesheet" type="text/css" href="yasr/yasr.min.css"/>
+  <link rel="stylesheet" type="text/css" href="rabbis.css">
+
+</head>
+<body>
+  <table class="queryTable">
+    <tr>
+      <th align="left">Select an example of query</th>
+      <th>Create your own SPARQL query</th>
+    </tr>
+    <tr>
+      <td align="left">
+	<div class="vertical-menu">
+	  <a class="item" id="q1">Show me the ontology of rabbis metadata</a>
+	  <a class="item" id="q2">Show me all the rabbis of the ontology</a>
+	  <a class="item" id="q3">Show me the Babylonian Amoraim of the second generation</a>
+	  <a class="item" id="q4">Show me the rabbis who lived across two generations</a>
+	  <a class="item" id="q5">Show me the rabbis having more than one name</a>
+	  <a class="item" id="q6">Show me the ten most frequently appearing rabbis</a>
+          <!--a class="item" id="q2">Which are the Rabbis belonging to the 2nd generation ?</a>
+	      <a class="item" id="q3">Show me the bibliography of Anàn bar Ravà</a>
+	      <a class="item" id="q4">Which are the masters of Anàn bar Ravà ?</a>
+	      <a class="item" id="q5">What are the sons of Anàn bar Ravà ?</a>
+	      <a class="item" id="q6">In which place did Anàn bar Ravà study ? </a>
+	      <a class="item" id="q7">How many are the Rabbis belonging to the 3rd generation ?</a-->
+	</div> 
+      </td>
+      <td>
+	<div id="yasqe"></div>
+      </td>
+    </tr>
+  </table> 
+  
+  <div id="yasr" class="yasrStyle" style="padding-top:50px;"></div>
+  <!--script src='http://cdn.jsdelivr.net/yasr/2.4/yasr.bundled.min.js'></script>
+      <script src='http://cdn.jsdelivr.net/yasqe/2.2/yasqe.bundled.min.js'></script-->
+  <script src="yasr/yasr.bundled.min.js"></script>
+  <script src="yasqe/yasqe.bundled.min.js"></script>
+  <script src="glue.js"></script>
+</body>

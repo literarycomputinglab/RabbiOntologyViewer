@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rabbis' Ontology endpoint</title>
+  <link rel="stylesheet" type="text/css" href="yasqe/yasqe.min.css"/>
+  <link rel="stylesheet" type="text/css" href="yasr/yasr.min.css"/>
+  <link rel="stylesheet" type="text/css" href="rabbis.css">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script>
+    $(window).on('load resize', function(){
+    $window = $(window);
+    $('iframe').height(function(){
+    return $window.height()-$(this).offset().top;   
+    });
+    });
+  </script>
+
+</head>
+<body style="background-color:#ECF0F1">
+  <ul id="hmenu" class="horizontal-menu">
+    <!--li><a class="active" href="#home">Home</a></li--->
+    <li><a class="menu active" href="#" onClick="frames['centralFrame'].location.href='rabbiOntology.html';return true;" >SPARQL endpoint</a></li>
+    <li><a class="menu" href="#" onClick="frames['centralFrame'].location.href='ontoView.html';return true;" >Ontology Viewer (WebVOWL)</a></li>
+    <li><a class="menu" href="#" onClick="frames['centralFrame'].location.href='download.html';return true;" >Download Resource</a></li>
+  </ul>
+
+  <div style="padding-top:50px; padding-bottom:20px">
+  <center><h3>An Ontology of Rabbis of the Babylonian Talmud</h3></center>
+  <center>Emiliano Giovannetti, Andrea Bellandi, David Dattilo, Simone Marchi</center>
+  </div>
+
+  <iframe id="IframeId" name="centralFrame" scrolling="auto" width="100%" height="100%" frameborder="no" src="rabbiOntology.html"></iframe>
+
+  <script src="utils.js"></script>
+
+</body>

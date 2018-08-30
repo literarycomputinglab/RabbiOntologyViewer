@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rabbis' Ontology endpoint</title>
+  <link href='http://cdn.jsdelivr.net/g/yasqe@2.2(yasqe.min.css),yasr@2.4(yasr.min.css)' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" type="text/css" href="rabbis.css">
+</head>
+<body>
+	<center><h2>An Ontology of Rabbis of the Babylonian Talmud</h2></center>
+	<center>Emiliano Giovannetti, Andrea Bellandi, David Dattilo, Simone Marchi</center>
+  <center><h3>SPARQL endpoint (v0.1, preliminary version)</h3></center>
+	</br>
+	</br>
+   <table style="width:100%">
+  <tr>
+    <th>Create your own SPARQL query</th>
+    <th>Select a query</th>
+  </tr>
+  <tr>
+    <td><div id="yasqe"></div></td>
+    <td align="center">
+       <div class="vertical-menu">
+  <a href="#" class="active">Show me the metadata of the resource</a>
+  <a href="#">Which are the Rabbis belonging to the 2nd generation ?</a>
+  <a href="#">Show me the bibliography of Anàn bar Ravà</a>
+  <a href="#">Which are the masters of Anàn bar Ravà ?</a>
+  <a href="#">What are the sons of Anàn bar Ravà ?</a>
+  <a href="#">In which place did Anàn bar Ravà study ? </a>
+  <a href="#">How many are the Rabbis belonging to the 3rd generation ?</a>
+</div> 
+    </td>
+  </tr>
+</table> 
+ 
+  
+  <div id="yasr"></div>
+  
+  <script src='http://cdn.jsdelivr.net/yasr/2.4/yasr.bundled.min.js'></script>
+  <script src='http://cdn.jsdelivr.net/yasqe/2.2/yasqe.bundled.min.js'></script>
+  <script src="glue.js"></script>
+</body>

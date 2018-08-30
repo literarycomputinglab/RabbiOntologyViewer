@@ -1,0 +1,82 @@
+.vertical-menu {
+    width: 90%;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #FFFFFF; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 11px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu .item:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu .active {
+    background-color: #4C759F; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.yasrStyle {
+    width: 95%;
+    height: 100%;
+    margin:0 auto;
+}
+
+.queryTable {
+    width: 95%;
+    margin:0 auto;
+}
+
+
+body {
+    margin:0;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4C759F;
+}
+
+
+/*iframe {
+    min-height: 800px;
+    max-height: 1000px;
+}*/
+iframe{
+    display:block; 
+    margin:0; 
+    padding:0; 
+    border:0;
+}
